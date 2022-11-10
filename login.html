@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <title>华水实训周项目</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <link href="./Resource/icon.png" rel="short icon">
+    <link rel="stylesheet" href="./CSSFile/ExternalStyle.css">
+    <link rel="styleSheet" href="./CSSFile/CommonStyle.css">
+    <style>
+        .main_section{
+            border: 1px solid #dddddd;
+            background-color: white;
+            height: 100px;
+            width: 80%;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+        .input_user,.input_psw{
+            height: 50px;
+            line-height: 50px;
+        }
+        .input_user{
+            border-bottom: 1px solid #dddddd;
+        }
+        input{
+            border: none;
+            outline: none;
+            margin-left: 10px;
+        }
+        .main_section span{
+            margin-left: 15px;
+            font-weight: 550;
+        }
+        .login_div button{
+            text-align: center;
+            color: white;
+            background-color: #1C6DC0;
+            width: 100%;
+            height: 50px;
+            border-radius: 20px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <p>登录</p>
+    </header>
+    <section style="text-align: center;">
+        <img style="margin-top: 60px;" src="./Resource/head.png" alt="">
+    </section>
+    <section class="main_section">
+        <div class="input_user">
+            <span>账号名:</span>
+            <input type="text">
+        </div>
+        <div class="input_psw">
+            <span>密&#12288;码:</span>
+            <input type="password">
+        </div>
+        <div class="login_div" >
+            <button>登录</button>
+        </div>
+    </section>
+</body>
+</html>
